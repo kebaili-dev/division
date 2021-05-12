@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Division</title>
+</head>
+<body>
+    <form action="" method="post">
+        <label for="number1">Nombre 1</label>
+        <input type="number" step="0.01" id="number1" name="number1">
+        <label for="number2">Nombre 2</label>
+        <input type="number" step="0.01" id="number2" name="number2">
+        
+        <button>Faire la division</button>
+    </form>
+    
+    <?php if (isset($result)): ?>
+        <p>Résultat de la division : <?= $result ?></p>
+    <?php endif ?>
+</body>
+</html>
